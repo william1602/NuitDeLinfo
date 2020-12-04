@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>notre IA </title>
+</head>
+<body>
+<div id="conteneur">
+<nav>
+        <ul id="menu">
+            <li><a href="spots.html"> spots </a></li>
+            <li><a href="#">cours et tuttos</a></li>
+            <li><a href="#">risque</a></li>
+            <li><a href="#"> contacts</a></li>
+			<li><a href="index.php"> accueil</a></li>
+
+        </ul>
+</nav>
+<button id="btnPopup" class="btnPopup">Liste fonctionnalité</button>
+<div id="overlay" class="overlay">
+    <div id="popup" class="popup">
+        <h2>
+            comment puisje vous aider ?
+            <span id="btnClose" class="btnClose">&times;</span>
+        </h2>
+        <div>
+            selectionner une reponse parmis celle ci dessous
+
+            <form action="tspot.php" method="post">
+                <input type="text" name="nspot"><br>
+                <input type="submit" value="trouver un spots ">
+            </form>
+            <form action="tsurf.php" method="post">
+                <input type="submit" value="trouver un surfers">
+            </form>
+            <form action="autre.php" method="post">
+                <input type="submit" value="autre ">
+            </form>
+
+        </div>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
