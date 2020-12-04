@@ -1,0 +1,104 @@
+body
+{
+    margin: 10px 0 ;
+    font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+    background-image: url('./surf.jpg');
+    background-size: 100%;
+}
+
+#conteneur
+{
+    width: 770px ;
+    margin: 0 auto ;
+    border: 2px solid #00064F ;
+    background: #45EDFF ;
+}
+
+ul#menu
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    display : inline-block;
+    padding: 0;
+    list-style-type: none;
+    background: #11ABE7;
+}
+
+ul#menu li
+{
+    float: left ;
+    text-align: center ;
+}
+
+ul#menu li a
+{
+    font-size: 1.4em ;
+    font-weight: bold ;
+    width: 150px ;
+    line-height: 30px ;
+    display: block ;
+    text-decoration: none ;
+    border: 2px solid #00064F  ;
+    color: #00064F ;
+}
+
+
+#contenu
+{
+    padding: 0 25px 0 50px ;
+}
+
+#contenu h1
+{
+    padding-left: 25px ;
+    line-height: 25px ;
+    font-size: 1.4em ;
+    color: #00064F ;
+    border-bottom: 1px solid #00064F ;
+}
+
+#contenu h2
+{
+    margin-left: 15px ;
+    padding-left: 5px ;
+    border-bottom: 1px solid #00064F ;
+    border-left: 3px solid #00064F ;
+    color: #002062 ;
+    font-size: 1.4em ;
+}
+
+
+#contenu p
+{
+    padding: 0 25px 0 25px ;
+    text-align: justify ;
+    text-indent: 2em ;
+    line-height: 2.0em ;
+    color :#000000;
+    font-size: 1.05em ;
+}
+
+#menu li :hover
+{
+    color: #E5BDBD ;
+}
+
+#footer
+{
+    margin: 0 ;
+    padding-right: 10px ;
+    line-height: 30px ;
+    text-align: right ;
+    color: #00000 ;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
