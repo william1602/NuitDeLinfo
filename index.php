@@ -12,11 +12,10 @@
 
     <nav>
         <ul id="menu">
-            <li><a href="#"> spots</a></li>
-            <li><a href="#">cours et tuttos</a></li>
+            <li><a href="spots.html"> spots</a></li>
+            <li><a href="cours.html">cours et tuttos</a></li>
             <li><a href="#">risque</a></li>
-            <li><a href="spots.html"> contacts</a></li>
-
+            <li><a href="#"> contacts</a></li>
         </ul>
     </nav>
 	
